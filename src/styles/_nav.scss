@@ -22,7 +22,7 @@
 	top: 0;
 	left: 0;
 	overflow-x: hidden;
-	display: flexbox;
+	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	color: black;
@@ -33,4 +33,11 @@
 	text-orientation: upright;
 	display: block;
 	margin: 20px auto;
+	font-size: 1.2rem;
+}
+
+.logo-img {
+	width: 30px;
+	vertical-align: inherit;
+	border-radius: 50%;
 }

@@ -1,0 +1,20 @@
+@use "./variables" as *;
+
+@mixin whiteOut {
+	text-shadow: -1px 1px 0 $textColourWhite, 1px 1px 0 $textColourWhite,
+		1px -1px 0 $textColourWhite, -1px -1px 0 $textColourWhite;
+	color: $backgroundGreen;
+}
+
+@mixin greenRoll {
+	background-color: $backgroundGreen;
+	width: 55%;
+	height: 100vh;
+	margin-left: 100px;
+}
+
+@mixin flexCenter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

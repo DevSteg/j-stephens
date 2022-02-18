@@ -15,6 +15,13 @@ export const Nav = () => {
 			</Link>
 			<nav className="sidenav">
 				<div className="nav-list">
+					<Link className="nav-link" to="home" smooth={true} duration={2000}>
+						<img
+							src={process.env.PUBLIC_URL + "/img/logo.png"}
+							alt="Logo"
+							className="logo-img"
+						/>
+					</Link>
 					<Link
 						className="nav-link"
 						to="projects"
@@ -29,8 +36,21 @@ export const Nav = () => {
 					<Link className="nav-link" to="contact" smooth={true} duration={2000}>
 						Contact
 					</Link>
+					<Link className="nav-link" to="cv" smooth={true} duration={2000}>
+						CV
+					</Link>
 				</div>
-				<div className="social-links"></div>
+				<div className="social-links">
+					<Link className="nav-link">
+						<i class="fab fa-github"></i>
+					</Link>
+					<Link className="nav-link">
+						<i class="fab fa-linkedin-in"></i>
+					</Link>
+					<Link className="nav-link">
+						<i class="fab fa-twitter"></i>
+					</Link>
+				</div>
 			</nav>
 		</div>
 	);
