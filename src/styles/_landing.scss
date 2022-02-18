@@ -1,0 +1,47 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+.green-roll {
+	@include greenRoll();
+}
+
+.greet-div {
+	position: relative;
+	top: 15%;
+	left: 15%;
+	width: 80%;
+	color: $textColourWhite;
+}
+
+.hi-title {
+	font-size: 13rem;
+	@include whiteOut();
+}
+
+.intro-title {
+	font-size: 6rem;
+	line-height: 0.7;
+	letter-spacing: 3px;
+}
+
+.info-title {
+	font-size: 3.5rem;
+	letter-spacing: 2px;
+	line-height: 1.4;
+	@include whiteOut();
+}
+
+.intro-para {
+	font-size: 1.2rem;
+	max-width: 520px;
+	margin: 30px 0 50px;
+	letter-spacing: 1px;
+}
+
+.img-aside {
+	@include flexCenter();
+	img {
+		width: 80%;
+		border-radius: 50%;
+	}
+}
