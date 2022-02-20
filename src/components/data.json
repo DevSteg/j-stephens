@@ -1,0 +1,44 @@
+[
+	{
+		"id": "01",
+		"name": "Tic Tac Toe React Game",
+		"about": "This project is a tic tac toe game created with ReactJS using functions with hooks, The site is reponsive to most screen sizes.The game also comes with a scoreboard which tracks the games played,There are reset buttons for both the game board and the score board. The game is designed with bold colours to stand out from the dark background and is deployed using Netlify.com",
+		"img": [
+			"/img/tic_tac_toe/tic_tac_desktop.png",
+			"/img/tic_tac_toe/tic_tac_tablet_play.png",
+			"/img/tic_tac_toe/tic_tac_tab_winner.png",
+			"/img/tic_tac_toe/tic_tac_mobile.png",
+			"/img/tic_tac_toe/tic_tac_mob_game.png"
+		],
+		"source": "https://github.com/DevSteg/tic-tac-toe-react",
+		"live": "https://tic-tac-toe-re.netlify.app/"
+	},
+	{
+		"id": "02",
+		"name": "Abigail Flower Art",
+		"about": "This project is for an Art and pottery store called Abigail Flower. The client wanted a site where they could showcase their products for sale and allow the users to purhcase items.The website was built using Django and was deployed with Heroku and is using a POSTgres SQL database. Stripe has been used to control the payment system and security. AWS S3 Bucket has been used for image hosting.",
+		"img": [
+			"/img/ab_flower/ab-flow-desk.png",
+			"/img/ab_flower/ab_flow_tab_prod.png",
+			"/img/ab_flower/ab_flow_tab_sign.png",
+			"/img/ab_flower/ab_flow_mobile.png",
+			"/img/ab_flower/ab_flow_mobile_con.png"
+		],
+		"source": "https://github.com/DevSteg/ab_flo_art",
+		"live": "https://abigail-flower.herokuapp.com/"
+	},
+	{
+		"id": "03",
+		"name": "ToDo Dashboard",
+		"about": "This project was inspired by the dashboard extention for Chrome called Momentum. The web app is a todo list dashboard,built with plain javescript. The todo list makes use of the local storage. The app also asks for location data as it has a weather section that will give the user the local weather in a widget. The app uses the open weather map API for the weather section.",
+		"img": [
+			"/img/todo_dashboard/todo_desktop.png",
+			"/img/todo_dashboard/todo_tablet.png",
+			"/img/todo_dashboard/todo_tablet_add.png",
+			"/img/todo_dashboard/todo_mobile.png",
+			"/img/todo_dashboard/todo_mobile_weather.png"
+		],
+		"source": "https://github.com/DevSteg/ToDo-Dashboard",
+		"live": "https://devsteg.github.io/ToDo-Dashboard/"
+	}
+]
