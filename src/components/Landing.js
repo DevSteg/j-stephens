@@ -19,7 +19,7 @@ export const Landing = () => {
 					</p>
 				</div>
 			</article>
-			<aside className="img-aside">
+			<aside className="landing-aside">
 				<img
 					src={process.env.PUBLIC_URL + "/img/logo.png"}
 					alt="James Stephens"

@@ -1,10 +1,6 @@
 @use "./variables" as *;
 @use "./mixins" as *;
 
-.green-roll {
-	@include greenRoll();
-}
-
 .greet-div {
 	position: relative;
 	top: 15%;
@@ -38,7 +34,7 @@
 	letter-spacing: 1px;
 }
 
-.img-aside {
+.landing-aside {
 	@include flexCenter();
 	img {
 		width: 80%;
