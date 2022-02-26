@@ -5,13 +5,23 @@
 	position: relative;
 	top: 15%;
 	left: 15%;
-	width: 80%;
+	display: inline-block;
 	color: $textColourWhite;
 }
 
 .hi-title {
 	font-size: 13rem;
+	margin-bottom: 2rem;
 	@include whiteOut();
+}
+
+.tag-name {
+	float: right;
+	font-size: 1.3rem;
+	letter-spacing: 0.1rem;
+	span {
+		color: #c84c09;
+	}
 }
 
 .intro-title {
@@ -25,13 +35,6 @@
 	letter-spacing: 2px;
 	line-height: 1.4;
 	@include whiteOut();
-}
-
-.intro-para {
-	font-size: 1.2rem;
-	max-width: 520px;
-	margin: 30px 0 50px;
-	letter-spacing: 1px;
 }
 
 .landing-aside {
