@@ -1,0 +1,38 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+.about-div {
+	@include flexDirection(column);
+}
+
+.skills-div {
+	height: auto;
+	@include flexDirection(column);
+	margin-top: 34%;
+	flex-wrap: wrap;
+}
+
+.three-skill-div {
+	@include flexDirection(row);
+	margin-top: 2rem;
+}
+
+.skill {
+	background-color: $backgroundGreen;
+	color: $textColourWhite;
+	width: 150px;
+	height: 150px;
+	@include flexDirection(column);
+	justify-content: center;
+	text-align: center;
+	border-radius: 2rem;
+	margin-left: 1.2rem;
+	i {
+		font-size: 4rem;
+		margin-bottom: 1rem;
+	}
+	h4 {
+		font-size: 1.8rem;
+		letter-spacing: 2px;
+	}
+}

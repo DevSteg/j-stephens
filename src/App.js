@@ -1,6 +1,7 @@
 import "./styles/_app.scss";
 import { Nav } from "./components/Nav";
 import { Landing } from "./components/Landing";
+import { About } from "./components/About";
 
 function App() {
 	return (
@@ -10,6 +11,7 @@ function App() {
 			</header>
 			<main className="App-main">
 				<Landing />
+				<About />
 			</main>
 		</div>
 	);

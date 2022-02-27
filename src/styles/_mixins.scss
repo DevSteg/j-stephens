@@ -6,15 +6,20 @@
 	color: $backgroundGreen;
 }
 
-@mixin greenRoll {
+@mixin greenRoll($width) {
 	background-color: $backgroundGreen;
-	width: 55%;
+	width: $width;
 	height: 100vh;
-	margin-left: 100px;
+	padding-left: 100px;
 }
 
 @mixin flexCenter {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+@mixin flexDirection($direction) {
+	display: flex;
+	flex-direction: $direction;
 }

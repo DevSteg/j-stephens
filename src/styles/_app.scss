@@ -1,5 +1,14 @@
 @use "./mixins" as *;
+@use "./variables" as *;
 
 .green-roll {
-	@include greenRoll();
+	@include greenRoll(64%);
+}
+
+.sect-title {
+	@include whiteOut();
+	color: $backgroundGreen;
+	font-size: 11rem;
+	display: inline-block;
+	transform: translateX(7.5rem);
 }
