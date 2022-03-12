@@ -1,4 +1,4 @@
-import "./styles/_app.scss";
+import "./styles/app.scss";
 import { Nav } from "./components/Nav";
 import { Landing } from "./components/Landing";
 import { About } from "./components/About";

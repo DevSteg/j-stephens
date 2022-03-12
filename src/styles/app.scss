@@ -1,0 +1,34 @@
+@use "./mixins" as *;
+@use "./variables" as *;
+
+.green-roll {
+	@include greenRoll(64%);
+}
+
+.sect-title {
+	@include whiteOut();
+	color: $backgroundGreen;
+	font-size: 11vw;
+	display: inline-block;
+}
+
+@media screen and (max-width: 1200px) {
+	.green-roll {
+		@include greenRoll(100%);
+	}
+
+	.sect-title {
+		font-size: 8rem;
+	}
+
+	.intro-title {
+		font-size: 3rem;
+	}
+
+	.landing-aside {
+		position: absolute;
+		right: 0;
+		top: 15%;
+		display: inline-block;
+	}
+}
