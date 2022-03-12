@@ -1,8 +1,29 @@
-import React from "react";
-import "../styles/_nav.scss";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
+import { DeskNav } from "./DeskNav";
+import { MobNav } from "./MobNav";
 
 export const Nav = () => {
+	const [screenwWidth, setScreenWidth] = useState(window.innerWidth);
+	let whatNav = "";
+	if (screenwWidth < 1200) {
+		whatNav = <MobNav />;
+	} else {
+		whatNav = <DeskNav />;
+	}
+
+	useEffect(() => {
+		const changeWidth = () => {
+			setScreenWidth(window.innerWidth);
+		};
+
+		window.addEventListener("resize", changeWidth);
+
+		return () => {
+			window.removeEventListener("resize", changeWidth);
+		};
+	}, []);
+
 	return (
 		<div>
 			<Link
@@ -13,45 +34,7 @@ export const Nav = () => {
 			>
 				Skip to Main
 			</Link>
-			<nav className="sidenav">
-				<div className="nav-list">
-					<Link className="nav-link" to="home" smooth={true} duration={2000}>
-						<img
-							src={process.env.PUBLIC_URL + "/img/logo.png"}
-							alt="Logo"
-							className="logo-img"
-						/>
-					</Link>
-					<Link
-						className="nav-link"
-						to="projects"
-						smooth={true}
-						duration={2000}
-					>
-						Projects
-					</Link>
-					<Link className="nav-link" to="about" smooth={true} duration={2000}>
-						About
-					</Link>
-					<Link className="nav-link" to="contact" smooth={true} duration={2000}>
-						Contact
-					</Link>
-					<Link className="nav-link" to="cv" smooth={true} duration={2000}>
-						CV
-					</Link>
-				</div>
-				<div className="social-links">
-					<Link className="nav-link">
-						<i class="fab fa-github"></i>
-					</Link>
-					<Link className="nav-link">
-						<i class="fab fa-linkedin-in"></i>
-					</Link>
-					<Link className="nav-link">
-						<i class="fab fa-twitter"></i>
-					</Link>
-				</div>
-			</nav>
+			{whatNav}
 		</div>
 	);
 };
