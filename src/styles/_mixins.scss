@@ -11,6 +11,9 @@
 	width: $width;
 	height: 100vh;
 	padding-left: 100px;
+	@media screen and (max-width: $large) {
+		padding-left: 0;
+	}
 }
 
 @mixin flexCenter {

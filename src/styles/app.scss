@@ -16,19 +16,4 @@
 	.green-roll {
 		@include greenRoll(100%);
 	}
-
-	.sect-title {
-		font-size: 8rem;
-	}
-
-	.intro-title {
-		font-size: 3rem;
-	}
-
-	.landing-aside {
-		position: absolute;
-		right: 0;
-		top: 15%;
-		display: inline-block;
-	}
 }

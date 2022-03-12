@@ -7,34 +7,49 @@
 	left: 15%;
 	display: inline-block;
 	color: $textColourWhite;
+	@media screen and (max-width: $large) {
+		top: 38%;
+	}
 }
 
 .hi-title {
-	font-size: 13rem;
+	font-size: 13vw;
 	margin-bottom: 2rem;
 	@include whiteOut();
+	@media screen and (max-width: $small) {
+		font-size: 8rem;
+	}
 }
 
 .tag-name {
-	float: right;
-	font-size: 1.3rem;
+	text-align: right;
+	font-size: 1.3vw;
 	letter-spacing: 0.1rem;
 	span {
 		color: #c84c09;
 	}
+	@media screen and (max-width: $small) {
+		font-size: 1rem;
+	}
 }
 
 .intro-title {
-	font-size: 6rem;
+	font-size: 6vw;
 	line-height: 0.7;
 	letter-spacing: 3px;
+	@media screen and (max-width: $small) {
+		font-size: 2rem;
+	}
 }
 
 .info-title {
-	font-size: 3.5rem;
+	font-size: 3.5vw;
 	letter-spacing: 2px;
 	line-height: 1.4;
 	@include whiteOut();
+	@media screen and (max-width: $small) {
+		font-size: 2rem;
+	}
 }
 
 .landing-aside {
@@ -42,5 +57,12 @@
 	img {
 		width: 80%;
 		border-radius: 50%;
+		@media screen and (max-width: $large) {
+			position: absolute;
+			right: 10%;
+			top: 25%;
+			width: 30%;
+			display: inline-block;
+		}
 	}
 }
