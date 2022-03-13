@@ -3,12 +3,42 @@
 
 .about-div {
 	@include flexDirection(column);
+	justify-content: center;
+	align-items: center;
+	padding: 0 75px;
+	height: 40vh;
+}
+
+.intro-para {
+	color: $textColourWhite;
+	font-size: 2vw;
+	@media screen and (max-width: $large) {
+		font-size: 4vw;
+		color: $backgroundGreen;
+	}
+}
+
+.mob-color {
+	@media screen and (max-width: $large) {
+		background-color: $textColourWhite;
+	}
+}
+
+.skills-aside {
+	@include flexCenter();
+	@media screen and (max-width: $large) {
+		position: absolute;
+		bottom: 5%;
+		left: 22%;
+	}
+	@media screen and (max-width: $small) {
+		left: 12%;
+	}
 }
 
 .skills-div {
 	height: auto;
 	@include flexDirection(column);
-	margin-top: 34%;
 	flex-wrap: wrap;
 }
 
@@ -18,7 +48,7 @@
 }
 
 .skill {
-	background-color: $backgroundGreen;
+	background-color: $orangeBtn;
 	color: $textColourWhite;
 	width: 150px;
 	height: 150px;
@@ -28,11 +58,27 @@
 	border-radius: 2rem;
 	margin-left: 1.2rem;
 	i {
-		font-size: 4rem;
+		font-size: 4vw;
 		margin-bottom: 1rem;
 	}
 	h4 {
-		font-size: 1.8rem;
+		font-size: 1.8vw;
 		letter-spacing: 2px;
+	}
+	@media screen and (max-width: $large) {
+		width: 15vw;
+		height: 15vw;
+		background-color: $backgroundGreen;
+	}
+	@media screen and (max-width: $small) {
+		width: 20vw;
+		height: 20vw;
+		border-radius: 20px;
+		i {
+			font-size: 8vw;
+		}
+		h4 {
+			font-size: 3vw;
+		}
 	}
 }

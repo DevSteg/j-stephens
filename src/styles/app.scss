@@ -3,6 +3,9 @@
 
 .green-roll {
 	@include greenRoll(64%);
+	@media screen and (max-width: $large) {
+		@include greenRoll(100%);
+	}
 }
 
 .sect-title {
@@ -10,10 +13,5 @@
 	color: $backgroundGreen;
 	font-size: 11vw;
 	display: inline-block;
-}
-
-@media screen and (max-width: 1200px) {
-	.green-roll {
-		@include greenRoll(100%);
-	}
+	@include flexCenter();
 }
