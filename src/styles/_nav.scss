@@ -36,6 +36,16 @@
 	display: block;
 	margin: 20px auto;
 	font-size: 1.2rem;
+	cursor: pointer;
+	&:hover {
+		background-color: $orangeBtn;
+		color: $textColourWhite;
+		border-radius: 5px;
+	}
+}
+
+.social-links {
+	color: $orangeBtn;
 }
 
 .logo-img {
@@ -48,6 +58,7 @@
 
 .nav-btn {
 	position: absolute;
+	z-index: 5;
 	top: 15px;
 	left: 15px;
 	background-color: $backgroundGreen;
