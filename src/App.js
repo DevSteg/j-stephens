@@ -2,6 +2,7 @@ import "./styles/app.scss";
 import { Nav } from "./components/Nav";
 import { Landing } from "./components/Landing";
 import { About } from "./components/About";
+import { Projects } from "./components/Projects";
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 			<main className="App-main">
 				<Landing />
 				<About />
+				<Projects />
 			</main>
 		</div>
 	);
