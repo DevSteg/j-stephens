@@ -28,13 +28,13 @@ export const DeskNav = () => {
 			</div>
 			<div className="social-links">
 				<Link className="nav-link">
-					<i class="fab fa-github"></i>
+					<i className="fab fa-github"></i>
 				</Link>
 				<Link className="nav-link">
-					<i class="fab fa-linkedin-in"></i>
+					<i className="fab fa-linkedin-in"></i>
 				</Link>
 				<Link className="nav-link">
-					<i class="fab fa-twitter"></i>
+					<i className="fab fa-twitter"></i>
 				</Link>
 			</div>
 		</nav>

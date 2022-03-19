@@ -11,7 +11,7 @@ export const MobNav = () => {
 	return (
 		<nav className="mob-nav">
 			<button className="nav-btn" onClick={toggleMenu}>
-				<i class="fas fa-bars"></i>
+				<i className="fas fa-bars"></i>
 			</button>
 			{isOpen && (
 				<div className="mob-nav-div" onClick={toggleMenu}>
@@ -44,13 +44,13 @@ export const MobNav = () => {
 					</Link>
 					<div className="mob-social-links">
 						<Link className="mob-nav-link">
-							<i class="fab fa-github"></i>
+							<i className="fab fa-github"></i>
 						</Link>
 						<Link className="mob-nav-link">
-							<i class="fab fa-linkedin-in"></i>
+							<i className="fab fa-linkedin-in"></i>
 						</Link>
 						<Link className="mob-nav-link">
-							<i class="fab fa-twitter"></i>
+							<i className="fab fa-twitter"></i>
 						</Link>
 					</div>
 				</div>

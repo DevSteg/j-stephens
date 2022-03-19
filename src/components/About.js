@@ -23,44 +23,44 @@ export const About = () => {
 			<aside className="skills-aside">
 				<div className="skills-div">
 					<div className="three-skill-div">
-						<div class="skill">
-							<i class="fab fa-html5"></i>
+						<div className="skill">
+							<i className="fab fa-html5"></i>
 							<h4>HTML5</h4>
 						</div>
-						<div class="skill">
-							<i class="fab fa-css3"></i>
+						<div className="skill">
+							<i className="fab fa-css3"></i>
 							<h4>CSS3</h4>
 						</div>
-						<div class="skill">
-							<i class="fab fa-sass"></i>
+						<div className="skill">
+							<i className="fab fa-sass"></i>
 							<h4>Sass</h4>
 						</div>
 					</div>
 					<div className="three-skill-div">
-						<div class="skill">
-							<i class="fab fa-js"></i>
+						<div className="skill">
+							<i className="fab fa-js"></i>
 							<h4>JavaScript</h4>
 						</div>
-						<div class="skill">
-							<i class="fab fa-react"></i>
+						<div className="skill">
+							<i className="fab fa-react"></i>
 							<h4>React</h4>
 						</div>
-						<div class="skill">
-							<i class="fab fa-node"></i>
+						<div className="skill">
+							<i className="fab fa-node"></i>
 							<h4>Node.js</h4>
 						</div>
 					</div>
 					<div className="three-skill-div">
-						<div class="skill">
-							<i class="fab fa-python"></i>
+						<div className="skill">
+							<i className="fab fa-python"></i>
 							<h4>Python</h4>
 						</div>
-						<div class="skill">
-							<i class="fab fa-git"></i>
+						<div className="skill">
+							<i className="fab fa-git"></i>
 							<h4>Git</h4>
 						</div>
-						<div class="skill">
-							<i class="fab fa-bootstrap"></i>
+						<div className="skill">
+							<i className="fab fa-bootstrap"></i>
 							<h4>Bootstrap</h4>
 						</div>
 					</div>
