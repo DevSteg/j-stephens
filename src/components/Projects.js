@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import "../styles/_projects.scss";
 import data from "./data.json";
 import { ProjectImgs } from "./ProjectImgs";
+import { MobImg } from "./MobImg";
+import { useScreenWidth } from "./useScreenWidth";
 
 export const Projects = () => {
 	const [projectIndex, setProjectIndex] = useState(0);
@@ -25,6 +27,13 @@ export const Projects = () => {
 
 		return () => clearInterval(interval);
 	}, []);
+
+	const whatImage =
+		useScreenWidth() < 900 ? (
+			<MobImg data={data} projectIndex={projectIndex} />
+		) : (
+			<ProjectImgs data={data} projectIndex={projectIndex} />
+		);
 
 	return (
 		<section className="green-full">
@@ -61,7 +70,7 @@ export const Projects = () => {
 					</div>
 				</div>
 			</article>
-			<ProjectImgs data={data} projectIndex={projectIndex} />
+			{whatImage}
 			<div className="slide-forward" onClick={handleForwardClick}>
 				<i class="fas fa-caret-right"></i>
 			</div>

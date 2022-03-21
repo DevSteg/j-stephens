@@ -38,7 +38,7 @@
 	line-height: 0.7;
 	letter-spacing: 3px;
 	@media screen and (max-width: $small) {
-		font-size: 2rem;
+		font-size: 10vw;
 	}
 }
 
@@ -48,7 +48,7 @@
 	line-height: 1.4;
 	@include whiteOut();
 	@media screen and (max-width: $small) {
-		font-size: 2rem;
+		font-size: 5vw;
 	}
 }
 
