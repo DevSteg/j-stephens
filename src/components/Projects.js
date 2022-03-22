@@ -29,7 +29,7 @@ export const Projects = () => {
 	}, []);
 
 	const whatImage =
-		useScreenWidth() < 900 ? (
+		useScreenWidth() < 950 ? (
 			<MobImg data={data} projectIndex={projectIndex} />
 		) : (
 			<ProjectImgs data={data} projectIndex={projectIndex} />

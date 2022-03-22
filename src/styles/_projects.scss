@@ -101,6 +101,12 @@
 	justify-content: space-around;
 	width: 35%;
 	@media screen and (max-width: $large) {
+		width: auto;
+		position: absolute;
+		bottom: 10%;
+		left: 23%;
+	}
+	@media screen and (max-width: $small) {
 		width: 70%;
 		position: absolute;
 		bottom: 10%;
@@ -130,5 +136,10 @@
 
 .mob-img {
 	width: auto;
-	max-height: 150px;
+	@media screen and (max-width: $large) {
+		max-height: 300px;
+	}
+	@media screen and (max-width: $small) {
+		max-height: 150px;
+	}
 }
