@@ -38,7 +38,7 @@ export const Projects = () => {
 	return (
 		<section className="green-full">
 			<div className="slide-back" onClick={handleBackClick}>
-				<i class="fas fa-caret-left"></i>
+				<i className="fas fa-caret-left"></i>
 			</div>
 			<article className="green-roll">
 				<h1 className="sect-title" id="projects">
@@ -72,7 +72,7 @@ export const Projects = () => {
 			</article>
 			{whatImage}
 			<div className="slide-forward" onClick={handleForwardClick}>
-				<i class="fas fa-caret-right"></i>
+				<i className="fas fa-caret-right"></i>
 			</div>
 		</section>
 	);
