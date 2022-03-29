@@ -81,9 +81,7 @@
 	z-index: 5;
 	&:hover,
 	&:focus {
-		background-color: #9b3904;
-		box-shadow: 0 0.5em 0.5em -0.4em #181d27;
-		transform: translateY(-0.05em);
+		@include hoverBtn();
 	}
 	@media screen and (max-width: $small) {
 		max-width: 80px;

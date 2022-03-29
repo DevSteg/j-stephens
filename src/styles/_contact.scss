@@ -50,9 +50,7 @@
 	cursor: pointer;
 	&:hover,
 	&:focus {
-		background-color: #9b3904;
-		box-shadow: 0 0.5em 0.5em -0.4em #181d27;
-		transform: translateY(-0.05em);
+		@include hoverBtn();
 	}
 	@media screen and (max-width: $large) {
 		font-size: 3vw;
@@ -90,6 +88,10 @@
 	margin: auto 20px;
 	color: $orangeBtn;
 	cursor: pointer;
+	&:hover,
+	&:focus {
+		color: #9b3904;
+	}
 	@media screen and (max-width: $large) {
 		font-size: 5vw;
 	}

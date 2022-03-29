@@ -26,3 +26,9 @@
 	display: flex;
 	flex-direction: $direction;
 }
+
+@mixin hoverBtn($color: #9b3904) {
+	background-color: $color;
+	box-shadow: 0 0.5em 0.5em -0.4em #181d27;
+	transform: translateY(-0.05em);
+}
