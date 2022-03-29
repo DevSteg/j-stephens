@@ -43,15 +43,30 @@ export const MobNav = () => {
 						CV
 					</Link>
 					<div className="mob-social-links">
-						<Link className="mob-nav-link">
+						<a
+							className="mob-nav-link"
+							href="https://github.com/DevSteg"
+							target="_blank"
+							rel="noreferrer"
+						>
 							<i className="fab fa-github"></i>
-						</Link>
-						<Link className="mob-nav-link">
+						</a>
+						<a
+							className="mob-nav-link"
+							href="https://www.linkedin.com/in/james-stephens-75b49085/"
+							target="_blank"
+							rel="noreferrer"
+						>
 							<i className="fab fa-linkedin-in"></i>
-						</Link>
-						<Link className="mob-nav-link">
+						</a>
+						<a
+							className="mob-nav-link"
+							href="https://twitter.com/DevSteg"
+							target="_blank"
+							rel="noreferrer"
+						>
 							<i className="fab fa-twitter"></i>
-						</Link>
+						</a>
 					</div>
 				</div>
 			)}

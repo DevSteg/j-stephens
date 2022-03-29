@@ -27,15 +27,30 @@ export const DeskNav = () => {
 				</Link>
 			</div>
 			<div className="social-links">
-				<Link className="nav-link">
+				<a
+					className="nav-link"
+					href="https://github.com/DevSteg"
+					target="_blank"
+					rel="noreferrer"
+				>
 					<i className="fab fa-github"></i>
-				</Link>
-				<Link className="nav-link">
+				</a>
+				<a
+					className="nav-link"
+					href="https://www.linkedin.com/in/james-stephens-75b49085/"
+					target="_blank"
+					rel="noreferrer"
+				>
 					<i className="fab fa-linkedin-in"></i>
-				</Link>
-				<Link className="nav-link">
+				</a>
+				<a
+					className="nav-link"
+					href="https://twitter.com/DevSteg"
+					target="_blank"
+					rel="noreferrer"
+				>
 					<i className="fab fa-twitter"></i>
-				</Link>
+				</a>
 			</div>
 		</nav>
 	);

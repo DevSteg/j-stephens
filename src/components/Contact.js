@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/_contact.scss";
 import { ContactForm } from "./ContactForm";
-import { Link } from "react-scroll/modules";
 
 export const Contact = () => {
 	return (
@@ -15,19 +14,30 @@ export const Contact = () => {
 			<aside className="contact-aside">
 				<h2>Connect with me on Social media</h2>
 				<div className="contact-social">
-					<Link
+					<a
 						className="contact-link"
 						href="https://github.com/DevSteg"
 						target="_blank"
+						rel="noreferrer"
 					>
 						<i className="fab fa-github"></i>
-					</Link>
-					<Link className="contact-link">
+					</a>
+					<a
+						className="contact-link"
+						href="https://www.linkedin.com/in/james-stephens-75b49085/"
+						target="_blank"
+						rel="noreferrer"
+					>
 						<i className="fab fa-linkedin-in"></i>
-					</Link>
-					<Link className="contact-link">
+					</a>
+					<a
+						className="contact-link"
+						href="https://twitter.com/DevSteg"
+						target="_blank"
+						rel="noreferrer"
+					>
 						<i className="fab fa-twitter"></i>
-					</Link>
+					</a>
 				</div>
 			</aside>
 		</section>

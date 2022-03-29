@@ -45,7 +45,9 @@
 }
 
 .social-links {
-	color: $orangeBtn;
+	a {
+		color: $orangeBtn;
+	}
 }
 
 .logo-img {
@@ -94,5 +96,7 @@
 	width: 30%;
 	display: flex;
 	justify-content: space-around;
-	color: $orangeBtn;
+	a {
+		color: $orangeBtn;
+	}
 }
