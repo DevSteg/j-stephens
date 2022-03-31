@@ -36,7 +36,11 @@
 	display: block;
 	margin: 20px auto;
 	font-size: 1.2rem;
+	text-decoration: none;
 	cursor: pointer;
+	&:visited {
+		color: black;
+	}
 	&:hover {
 		background-color: $orangeBtn;
 		color: $textColourWhite;
@@ -47,6 +51,12 @@
 .social-links {
 	a {
 		color: $orangeBtn;
+		&:visited {
+			color: $orangeBtn;
+		}
+		&:hover {
+			color: $textColourWhite;
+		}
 	}
 }
 
@@ -89,6 +99,10 @@
 
 .mob-nav-link {
 	font-size: 3rem;
+	text-decoration: none;
+	&:visited {
+		color: $textColourWhite;
+	}
 }
 
 .mob-social-links {
@@ -98,5 +112,8 @@
 	justify-content: space-around;
 	a {
 		color: $orangeBtn;
+		&:visited {
+			color: $orangeBtn;
+		}
 	}
 }

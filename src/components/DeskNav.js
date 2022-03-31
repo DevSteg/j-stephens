@@ -13,18 +13,23 @@ export const DeskNav = () => {
 						className="logo-img"
 					/>
 				</Link>
-				<Link className="nav-link" to="projects" smooth={true} duration={2000}>
-					Projects
-				</Link>
 				<Link className="nav-link" to="about" smooth={true} duration={2000}>
 					About
+				</Link>
+				<Link className="nav-link" to="projects" smooth={true} duration={2000}>
+					Projects
 				</Link>
 				<Link className="nav-link" to="contact" smooth={true} duration={2000}>
 					Contact
 				</Link>
-				<Link className="nav-link" to="cv" smooth={true} duration={2000}>
+				<a
+					className="nav-link"
+					href="https://drive.google.com/file/d/1m4Qy57jHEF58oqT_a1Vg8vO38YvEF8RK/view?usp=sharing"
+					target="_blank"
+					rel="noreferrer"
+				>
 					CV
-				</Link>
+				</a>
 			</div>
 			<div className="social-links">
 				<a

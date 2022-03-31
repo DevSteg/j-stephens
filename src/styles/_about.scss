@@ -9,12 +9,26 @@
 	height: 40vh;
 }
 
-.intro-para {
+.intro-para,
+.about-tag-line {
 	color: $textColourWhite;
-	font-size: 2vw;
+	font-size: 1.8vw;
+	letter-spacing: 1.5px;
+	margin-left: 50px;
 	@media screen and (max-width: $large) {
-		font-size: 4vw;
+		font-size: 3vw;
+		letter-spacing: 1px;
 		color: $backgroundGreen;
+		margin-left: 0;
+	}
+}
+
+.about-tag-line {
+	margin-top: 40px;
+	font-size: 3vw;
+	color: $orangeBtn;
+	@media screen and (max-width: $large) {
+		font-size: 5vw;
 	}
 }
 
@@ -69,6 +83,9 @@
 		width: 15vw;
 		height: 15vw;
 		background-color: $backgroundGreen;
+		h4 {
+			font-size: 3.5vw;
+		}
 	}
 	@media screen and (max-width: $small) {
 		width: 20vw;
@@ -78,7 +95,7 @@
 			font-size: 8vw;
 		}
 		h4 {
-			font-size: 3vw;
+			font-size: 3.5vw;
 		}
 	}
 }

@@ -19,13 +19,11 @@ export const ContactForm = () => {
 			.then(
 				(result) => {
 					setStatus("Submit");
-					alert("Message Sent");
-					console.log(result.text);
+					alert("Message Sent, I will be in touch shortly");
 				},
 				(error) => {
 					setStatus("Submit");
 					alert("Error sending message, Please try again");
-					console.log(error.text);
 				}
 			);
 	};

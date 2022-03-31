@@ -17,19 +17,19 @@ export const MobNav = () => {
 				<div className="mob-nav-div" onClick={toggleMenu}>
 					<Link
 						className="mob-nav-link"
-						to="projects"
-						smooth={true}
-						duration={2000}
-					>
-						Projects
-					</Link>
-					<Link
-						className="mob-nav-link"
 						to="about"
 						smooth={true}
 						duration={2000}
 					>
 						About
+					</Link>
+					<Link
+						className="mob-nav-link"
+						to="projects"
+						smooth={true}
+						duration={2000}
+					>
+						Projects
 					</Link>
 					<Link
 						className="mob-nav-link"
@@ -39,9 +39,14 @@ export const MobNav = () => {
 					>
 						Contact
 					</Link>
-					<Link className="mob-nav-link" to="cv" smooth={true} duration={2000}>
+					<a
+						className="mob-nav-link"
+						href="https://drive.google.com/file/d/1m4Qy57jHEF58oqT_a1Vg8vO38YvEF8RK/view?usp=sharing"
+						target="_blank"
+						rel="noreferrer"
+					>
 						CV
-					</Link>
+					</a>
 					<div className="mob-social-links">
 						<a
 							className="mob-nav-link"

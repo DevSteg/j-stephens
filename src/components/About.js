@@ -10,14 +10,12 @@ export const About = () => {
 				</h1>
 				<div className="about-div">
 					<p className="intro-para">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-						ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-						aliquip ex ea commodo consequat. Duis aute irure dolor in
-						reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-						pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-						culpa qui officia deserunt mollit anim id est laborum.
+						Developer with experience in HTML5, CSS/SASS, JavaScript (ES5, ES6),
+						ReactJS, MongoDB, SQL, Python, Django, Git and Github. I am
+						currently learning NodeJS and ExpressJS, I have developed numerous
+						projects throughout the full software lifecycle. <br />
 					</p>
+					<h3 className="about-tag-line">Let me bring your ideas to life!</h3>
 				</div>
 			</article>
 			<aside className="skills-aside">

@@ -57,12 +57,13 @@
 }
 
 .pro-para {
-	font-size: 1.2vw;
-	max-width: 520px;
+	font-size: 1.8vw;
+	max-width: 600px;
 	margin: 30px 0 50px;
-	letter-spacing: 1px;
+	letter-spacing: 1.5px;
 	@media screen and (max-width: $large) {
 		font-size: 3vw;
+		letter-spacing: 1px;
 	}
 	@media screen and (max-width: $small) {
 		max-width: 300px;
@@ -102,13 +103,13 @@
 		width: auto;
 		position: absolute;
 		bottom: 10%;
-		left: 23%;
+		left: 16%;
 	}
 	@media screen and (max-width: $small) {
 		width: 70%;
 		position: absolute;
-		bottom: 10%;
-		left: 15%;
+		bottom: 20%;
+		left: 18%;
 	}
 }
 
