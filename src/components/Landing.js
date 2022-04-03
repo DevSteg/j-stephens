@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/_landing.scss";
+import { motion } from "framer-motion";
 
 export const Landing = () => {
 	return (
@@ -15,10 +16,17 @@ export const Landing = () => {
 				</div>
 			</article>
 			<aside className="landing-aside">
-				<img
+				<motion.img
+					drag
+					dragConstraints={{
+						top: -50,
+						left: -50,
+						right: 50,
+						bottom: 50,
+					}}
 					src={process.env.PUBLIC_URL + "/img/logo.png"}
 					alt="James Stephens"
-				/>
+				></motion.img>
 			</aside>
 		</section>
 	);
