@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../styles/_projects.scss";
 import data from "./data.json";
+import { motion } from "framer-motion";
 import { ProjectImgs } from "./ProjectImgs";
 import { MobImg } from "./MobImg";
 import { useScreenWidth } from "./useScreenWidth";
@@ -38,7 +39,10 @@ export const Projects = () => {
 	return (
 		<section className="green-full">
 			<div className="slide-back" onClick={handleBackClick}>
-				<i className="fas fa-caret-left"></i>
+				<motion.i
+					whileHover={{ scale: 1.2 }}
+					className="fas fa-caret-left"
+				></motion.i>
 			</div>
 			<article className="green-roll">
 				<h1 className="sect-title" id="projects">
@@ -72,7 +76,10 @@ export const Projects = () => {
 			</article>
 			{whatImage}
 			<div className="slide-forward" onClick={handleForwardClick}>
-				<i className="fas fa-caret-right"></i>
+				<motion.i
+					whileHover={{ scale: 1.2 }}
+					className="fas fa-caret-right"
+				></motion.i>
 			</div>
 		</section>
 	);

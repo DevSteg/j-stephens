@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/_nav.scss";
 import { Link } from "react-scroll/modules";
+import { motion } from "framer-motion";
 
 export const DeskNav = () => {
 	return (
@@ -38,7 +39,10 @@ export const DeskNav = () => {
 					target="_blank"
 					rel="noreferrer"
 				>
-					<i className="fab fa-github"></i>
+					<motion.i
+						whileHover={{ scale: 1.2 }}
+						className="fab fa-github"
+					></motion.i>
 				</a>
 				<a
 					className="nav-link"
@@ -46,7 +50,10 @@ export const DeskNav = () => {
 					target="_blank"
 					rel="noreferrer"
 				>
-					<i className="fab fa-linkedin-in"></i>
+					<motion.i
+						whileHover={{ scale: 1.2 }}
+						className="fab fa-linkedin-in"
+					></motion.i>
 				</a>
 				<a
 					className="nav-link"
@@ -54,7 +61,10 @@ export const DeskNav = () => {
 					target="_blank"
 					rel="noreferrer"
 				>
-					<i className="fab fa-twitter"></i>
+					<motion.i
+						whileHover={{ scale: 1.2 }}
+						className="fab fa-twitter"
+					></motion.i>
 				</a>
 			</div>
 		</nav>

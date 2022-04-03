@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/_contact.scss";
 import { ContactForm } from "./ContactForm";
+import { motion } from "framer-motion";
 
 export const Contact = () => {
 	return (
@@ -20,7 +21,11 @@ export const Contact = () => {
 						target="_blank"
 						rel="noreferrer"
 					>
-						<i className="fab fa-github"></i>
+						<motion.i
+							whileHover={{ scale: 1.2 }}
+							whileTap={{ scale: 0.9 }}
+							className="fab fa-github"
+						></motion.i>
 					</a>
 					<a
 						className="contact-link"
@@ -28,7 +33,11 @@ export const Contact = () => {
 						target="_blank"
 						rel="noreferrer"
 					>
-						<i className="fab fa-linkedin-in"></i>
+						<motion.i
+							whileHover={{ scale: 1.2 }}
+							whileTap={{ scale: 0.9 }}
+							className="fab fa-linkedin-in"
+						></motion.i>
 					</a>
 					<a
 						className="contact-link"
@@ -36,7 +45,11 @@ export const Contact = () => {
 						target="_blank"
 						rel="noreferrer"
 					>
-						<i className="fab fa-twitter"></i>
+						<motion.i
+							whileHover={{ scale: 1.2 }}
+							whileTap={{ scale: 0.9 }}
+							className="fab fa-twitter"
+						></motion.i>
 					</a>
 				</div>
 			</aside>
