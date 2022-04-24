@@ -23,9 +23,9 @@ export const About = () => {
 				<div className="skills-div">
 					<div className="three-skill-div">
 						<motion.div
-							whileHover={{ rotate: 360 }}
+							whileHover={{ scale: 1.1 }}
 							transition={{
-								duration: 2,
+								duration: 1.5,
 							}}
 							className="skill"
 						>
@@ -33,9 +33,9 @@ export const About = () => {
 							<h4>HTML5</h4>
 						</motion.div>
 						<motion.div
-							whileHover={{ rotate: 360 }}
+							whileHover={{ scale: 1.1 }}
 							transition={{
-								duration: 2,
+								duration: 1.5,
 							}}
 							className="skill"
 						>
@@ -43,9 +43,9 @@ export const About = () => {
 							<h4>CSS3</h4>
 						</motion.div>
 						<motion.div
-							whileHover={{ rotate: 360 }}
+							whileHover={{ scale: 1.1 }}
 							transition={{
-								duration: 2,
+								duration: 1.5,
 							}}
 							className="skill"
 						>
@@ -55,9 +55,9 @@ export const About = () => {
 					</div>
 					<div className="three-skill-div">
 						<motion.div
-							whileHover={{ rotate: 360 }}
+							whileHover={{ scale: 1.1 }}
 							transition={{
-								duration: 2,
+								duration: 1.5,
 							}}
 							className="skill"
 						>
@@ -65,9 +65,9 @@ export const About = () => {
 							<h4>JavaScript</h4>
 						</motion.div>
 						<motion.div
-							whileHover={{ rotate: 360 }}
+							whileHover={{ scale: 1.1 }}
 							transition={{
-								duration: 2,
+								duration: 1.5,
 							}}
 							className="skill"
 						>
@@ -75,9 +75,9 @@ export const About = () => {
 							<h4>React</h4>
 						</motion.div>
 						<motion.div
-							whileHover={{ rotate: 360 }}
+							whileHover={{ scale: 1.1 }}
 							transition={{
-								duration: 2,
+								duration: 1.5,
 							}}
 							className="skill"
 						>
@@ -87,9 +87,9 @@ export const About = () => {
 					</div>
 					<div className="three-skill-div">
 						<motion.div
-							whileHover={{ rotate: 360 }}
+							whileHover={{ scale: 1.1 }}
 							transition={{
-								duration: 2,
+								duration: 1.5,
 							}}
 							className="skill"
 						>
@@ -97,9 +97,9 @@ export const About = () => {
 							<h4>Python</h4>
 						</motion.div>
 						<motion.div
-							whileHover={{ rotate: 360 }}
+							whileHover={{ scale: 1.1 }}
 							transition={{
-								duration: 2,
+								duration: 1.5,
 							}}
 							className="skill"
 						>
@@ -107,9 +107,9 @@ export const About = () => {
 							<h4>Git</h4>
 						</motion.div>
 						<motion.div
-							whileHover={{ rotate: 360 }}
+							whileHover={{ scale: 1.1 }}
 							transition={{
-								duration: 2,
+								duration: 1.5,
 							}}
 							className="skill"
 						>
